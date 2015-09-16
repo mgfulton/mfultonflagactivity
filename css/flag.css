@@ -1,0 +1,57 @@
+#square {
+	width: 600px;
+	height: 400px;
+	background-color: red;
+	position: absolute;
+	z-index: 0;
+}
+
+#line1 {
+	   width: 800px;
+       height: 250px;
+        border-bottom: 50px solid green;
+        -webkit-transform:
+            translateY(-33px)
+            rotate(33deg); 
+        position: absolute;
+    	z-index: 1;}
+#line2 {
+	   width: 800px;
+       height: 250px;
+       right: 1px;
+        border-bottom: 50px solid green;
+        -webkit-transform:
+            translateY(-33px)
+            translateX(5px)
+            rotate(-33deg); 
+        position: absolute;
+    	z-index: 3;}
+
+#line3 {
+	  border-left: 50px solid white;
+		height: 100%;
+		position: absolute;
+		z-index:3;
+		left: 278px;
+		}
+
+#line4 {
+	border-bottom: 50px solid white;
+	border-bottom-width: 50px;
+	width: 100%;
+	position: absolute;
+	z-index:4;
+	top: 175px;
+
+}
+
+
+#container {
+	width:600px;
+	height:400px;
+	overflow: hidden;
+	position: absolute;
+
+}
+
+
